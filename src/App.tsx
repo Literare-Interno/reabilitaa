@@ -32,7 +32,7 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Terapia Assistida",
     desc: "Intervenções terapêuticas estruturadas com animais para saúde, reabilitação e bem-estar humano.",
     tag: "Saúde & Clínica",
-    img: "./src/assets/imgs/63.png",
+    img: "imgs/63.png",
     alt: "Terapia Assistida por Animais",
     variant: "light",
   },
@@ -41,7 +41,7 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Educação Assistida",
     desc: "Uso educacional e pedagógico dos animais como facilitadores do aprendizado e inclusão social.",
     tag: "Educação",
-    img: "./src/assets/imgs/3.png",
+    img: "imgs/3.png",
     alt: "Educação Assistida por Animais",
     variant: "orange",
   },
@@ -50,7 +50,7 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Ética & Direito",
     desc: "Fundamentos jurídicos, legislação vigente, responsabilidade profissional e bem-estar animal.",
     tag: "Jurídico & Ética",
-    img: "./src/assets/imgs/75.png",
+    img: "imgs/75.png",
     alt: "Aspectos Jurídicos e Éticos",
     variant: "light",
   },
@@ -59,7 +59,7 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Visão Interdisciplinar",
     desc: "Integração entre ciência, prática clínica, políticas públicas e impacto social dos SAA.",
     tag: "Pesquisa & Ciência",
-    img: "./src/assets/imgs/2.png",
+    img: "imgs/2.png",
     alt: "Visão Interdisciplinar",
     variant: "dark",
   },
@@ -274,7 +274,7 @@ function Nav({ scrolled }: { scrolled: boolean }) {
         WebkitBackdropFilter: "blur(20px)", boxShadow: "0 1px 0 rgba(0,0,0,.07)",
       } : undefined}>
         <div className="pg-nav__logo">
-          <img src="src/assets/imgs/logoreabnatale.png" alt="Logo Reab Natale" />
+          <img src="imgs/logo.png" alt="Logo Reab Natale" />
         </div>
         <ul className="pg-nav__links">
           {links.map((item) => (
@@ -342,7 +342,7 @@ function HeroSection() {
         transition: `opacity 1.1s 350ms cubic-bezier(.16,1,.3,1), transform 1.1s 350ms cubic-bezier(.16,1,.3,1)`,
       }}>
         <div className="pg-hero__image-inner">
-          <img src="src/assets/imgs/dogherooo.png" alt="Mascote do projeto" />
+          <img src="imgs/dogherooo.png" alt="Mascote do projeto" />
         </div>
       </div>
 
@@ -386,7 +386,7 @@ function BookSection() {
           </h2>
           <Reveal delay={100} direction="scale" className="pg-book__cover-wrapper pg-book__cover-wrapper--mobile">
             <img
-              src="src/assets/imgs/livro.png"
+              src="imgs/livro.png"
               alt="Capa do Livro Serviços Assistidos por Animais"
               className="pg-book__cover-img"
             />
@@ -395,7 +395,7 @@ function BookSection() {
 
         <Reveal delay={100} direction="scale" className="pg-book__cover-wrapper pg-book__cover-wrapper--desktop">
           <img
-            src="src/assets/imgs/FRONT1.png"
+            src="imgs/FRONT1.png"
             alt="Capa do Livro Serviços Assistidos por Animais"
             className="pg-book__cover-img"
           />
@@ -566,7 +566,7 @@ function ProfileSection() {
       <Reveal delay={200} direction="right" className="pg-profile__photo-wrap">
         <div ref={photoRef as React.RefObject<HTMLDivElement>} className="pg-profile__photo"
           style={{ transform: `translateY(${photoOffset * 0.3}px)` }}>
-          <img src="src/assets/imgs/cota6.png" alt="Natale Cotta — Coordenadora" />
+          <img src="imgs/cota6.png" alt="Natale Cotta — Coordenadora" />
         </div>
         <span className="pg-profile__tag">✦ Mestre em TAA</span>
         <div className="pg-profile__years">
@@ -592,7 +592,7 @@ function CtaBlock() {
         <button className="pg-btn-white">Quero participar →</button>
       </div>
       <div className="pg-cta-block__image">
-        <img src="src/assets/imgs/doghero2.png" alt="Terapia assistida" />
+        <img src="imgs/doghero2.png" alt="Terapia assistida" />
       </div>
     </Reveal>
   );
