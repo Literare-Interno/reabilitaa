@@ -281,7 +281,15 @@ function Nav({ scrolled }: { scrolled: boolean }) {
             <li key={item}><a href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}>{item}</a></li>
           ))}
         </ul>
-        <button className="pg-nav__cta pg-nav__cta--desktop">Quero ser Coautor(a) →</button>
+        <a
+  href="https://wa.me/5511978353802?text=Olá,%20quero%20ser%20coautor(a)"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="pg-nav__cta pg-nav__cta--desktop">
+    Quero ser Coautor(a) →
+  </button>
+</a>
         <button
           className={`pg-nav__burger ${menuOpen ? "pg-nav__burger--open" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
@@ -347,7 +355,11 @@ function HeroSection() {
       </div>
 
       <div className="pg-hero__bottom" style={fade(500)}>
-        <button className="pg-btn-primary">Saiba mais <span className="pg-arrow">↗</span></button>
+        <a
+        href="https://wa.me/5511978353802?text=Olá,%20quero%20ser%20coautor(a)"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><button className="pg-btn-primary">Saiba mais <span className="pg-arrow">↗</span></button></a>
         <div className="pg-hero__stats">
           <div className="pg-hero__stat"><strong>★ 1º</strong>Editora</div>
           <div className="pg-hero__stat"><strong>20+</strong>Anos de exp.</div>
