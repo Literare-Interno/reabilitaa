@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MoniqueScript';
+  src: url('/src/assets/fonts/MoniqueScript-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MuseoModerno';
+  src: url('/src/assets/fonts/museomoderno-regular.ttf') format('truetype');
+}
+
+.font-title { font-family: 'MoniqueScript', serif; }
+.font-body { font-family: 'MuseoModerno', sans-serif; }
