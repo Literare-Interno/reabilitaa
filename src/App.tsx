@@ -32,7 +32,7 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Terapia Assistida",
     desc: "Intervenções terapêuticas estruturadas com animais para saúde, reabilitação e bem-estar humano.",
     tag: "Saúde & Clínica",
-    img: "imgs/at2.png",
+    img: "imgs/dog212.png",
     alt: "Terapia Assistida por Animais",
     variant: "light",
   },
@@ -521,7 +521,7 @@ function ProfileSection() {
     <section className="pg-profile" id="coordenação">
       <Reveal direction="right" className="pg-profile__photo-wrap">
         <div className="pg-profile__photo">
-          <img src="imgs/cottan.png" alt="Natale Cotta — Coordenadora" />
+          <img src="imgs/cottault.png" alt="Natale Cotta — Coordenadora" />
         </div>
         <div className="pg-profile__photo-badge">
           <strong>Mestre em TAA</strong>
