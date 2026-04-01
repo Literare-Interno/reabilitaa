@@ -553,8 +553,6 @@ function ProfileSection() {
           </a>
         </div>
         <div className="pg-profile__actions">
-          <button className="pg-btn-primary">Quero ser Coautor(a) →</button>
-          <button className="pg-btn-ghost">Saiba mais</button>
         </div>
       </Reveal>
     </section>
@@ -574,7 +572,6 @@ function CtaBlock() {
             Animais como referência científica no Brasil e no mundo. Sua
             experiência merece ser publicada.
           </p>
-          <button className="pg-btn-light">Quero participar →</button>
         </div>
         <div className="pg-cta-block__image">
           <img src="imgs/FRONT1.png" alt="Terapia assistida" />
