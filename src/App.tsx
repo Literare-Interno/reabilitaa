@@ -249,7 +249,7 @@ function Nav({ scrolled }: { scrolled: boolean }) {
         boxShadow: "0 1px 0 rgba(26,26,59,.1)",
       } : undefined}>
         <div className="pg-nav__logo">
-          <img src="imgs/logo.png" alt="Logo Reab Natale" />
+          <img src="imgs/LOGOCOTTA.png" alt="Logo Reab Natale" />
         </div>
         <ul className="pg-nav__links">
           {links.map((item) => (
@@ -718,7 +718,7 @@ const GLOBAL_STYLES = `
     transition: background .4s, box-shadow .4s;
   }
   .pg-nav__logo { display: flex; align-items: center; flex-shrink: 0; }
-  .pg-nav__logo img { height: 38px; width: auto; max-width: 150px; object-fit: contain; }
+  .pg-nav__logo img { height: 120px; width: auto; max-width: 150px; object-fit: contain; }
   .pg-nav__links { display: flex; gap: 2.5rem; list-style: none; }
   .pg-nav__links a {
     font-size: .72rem; font-weight: 500; letter-spacing: .12em;
