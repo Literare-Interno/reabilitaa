@@ -41,7 +41,7 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Educação Assistida",
     desc: "Uso educacional e pedagógico dos animais como facilitadores do aprendizado e inclusão social.",
     tag: "Educação",
-    img: "imgs/at3.png",
+    img: "imgs/cat1.png",
     alt: "Educação Assistida por Animais",
     variant: "accent",
   },
@@ -50,7 +50,7 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Ética & Direito",
     desc: "Fundamentos jurídicos, legislação vigente, responsabilidade profissional e bem-estar animal.",
     tag: "Jurídico & Ética",
-    img: "imgs/at4.png",
+    img: "imgs/cort.png",
     alt: "Aspectos Jurídicos e Éticos",
     variant: "light",
   },
@@ -59,7 +59,7 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Visão Interdisciplinar",
     desc: "Integração entre ciência, prática clínica, políticas públicas e impacto social dos SAA.",
     tag: "Pesquisa & Ciência",
-    img: "imgs/at6.png",
+    img: "imgs/bird.png",
     alt: "Visão Interdisciplinar",
     variant: "dark",
   },
@@ -256,7 +256,7 @@ function Nav({ scrolled }: { scrolled: boolean }) {
             <li key={item}><a href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}>{item}</a></li>
           ))}
         </ul>
-        <a href="https://wa.me/5511978353802?text=Olá,%20quero%20ser%20coautor(a)" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/5531986972589?text=Olá,%20quero%20ser%20coautor(a)" target="_blank" rel="noopener noreferrer">
           <button className="pg-nav__cta pg-nav__cta--desktop">Quero ser Coautor(a)</button>
         </a>
         <button
@@ -316,7 +316,7 @@ function HeroSection() {
           </p>
 
           <div className="pg-hero__actions" style={fade(420)}>
-            <a href="https://wa.me/5511978353802?text=Olá,%20quero%20ser%20coautor(a)" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5531986972589?text=Olá,%20quero%20ser%20coautor(a)" target="_blank" rel="noopener noreferrer">
               <button className="pg-btn-primary">Saiba mais →</button>
             </a>
             <button className="pg-btn-ghost">Ver a obra</button>
@@ -521,7 +521,7 @@ function ProfileSection() {
     <section className="pg-profile" id="coordenação">
       <Reveal direction="right" className="pg-profile__photo-wrap">
         <div className="pg-profile__photo">
-          <img src="imgs/cota6.png" alt="Natale Cotta — Coordenadora" />
+          <img src="imgs/cottan.png" alt="Natale Cotta — Coordenadora" />
         </div>
         <div className="pg-profile__photo-badge">
           <strong>Mestre em TAA</strong>
@@ -577,7 +577,7 @@ function CtaBlock() {
           <button className="pg-btn-light">Quero participar →</button>
         </div>
         <div className="pg-cta-block__image">
-          <img src="imgs/at10.png" alt="Terapia assistida" />
+          <img src="imgs/FRONT1.png" alt="Terapia assistida" />
         </div>
       </div>
     </Reveal>
